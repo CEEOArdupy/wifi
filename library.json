@@ -1,12 +1,12 @@
 {
-    "name": "Test1",
+    "name": "wifi",
     "version": "1.0.0",
     "repository": {
         "type": "git",
-        "url": "https://github.com/CEEOArdupy/Test1.git"
+        "url": "https://github.com/CEEOArdupy/wifi.git"
     },
     "dependencies": [{
-        "name": "addition",
-        "url": "https://github.com/CEEOArdupy/Add.git"
+        "name": "rcpWiFi",
+        "url": "https://github.com/Seeed-Studio/Seeed_Arduino_rpcWiFi"
     }]
 }
