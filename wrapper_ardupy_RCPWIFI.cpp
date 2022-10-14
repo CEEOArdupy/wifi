@@ -1,4 +1,4 @@
-#include "addition/testaddition.h"
+#include "rcpWiFi/WiFi.h"
 extern "C"{
 #include "py/mphal.h"
 #include "py/nlr.h"
@@ -7,7 +7,7 @@ extern "C"{
 #include "shared-bindings/util.h"
 }
 
-#define adder (*(add *)self->module)
+#define wifi (*(WiFiClass *)self->module)
 
 void * operator new(size_t, void *);
 
